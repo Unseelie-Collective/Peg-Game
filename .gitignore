@@ -12,7 +12,6 @@ project.godot
 export_presets.cfg
 
 /addons/*
-!/addons/phantom_camera
 
 # Godot 4+ specific ignores
 .godot/
