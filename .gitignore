@@ -11,7 +11,7 @@ project.godot
 /icon.svg.import
 export_presets.cfg
 
-/addons/*
+# will disable addons later but for now letting it be (/addons/*)
 
 # Godot 4+ specific ignores
 .godot/
