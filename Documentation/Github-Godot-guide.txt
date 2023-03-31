@@ -1,0 +1,36 @@
+Setting up with Github desktop
+
+Installing Github Desktop : 
+https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop
+
+The official documentation for Github Desktop is as follows:-
+https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+However for ease and simplicity here is how you can set up the local file for the repository on github
+
+Basic Setup.
+
+1. Install Github Desktop 
+2. Navigate to the repository : https://github.com/Unseelie-Collective/Peg-Game
+3. In the dropdown (green button) go to : Code > Open with Github Desktop
+4. This should open this in Github desktop where it will ask you to clone the repository in some local folder, this can be the folder of your choice.
+5. Once that's been done open Godot 4.0, then click on scan and navigate the repository where you cloned the github repository.
+6. And that's all folks you're done with the base setup.
+
+Next steps would be to make some change in the godot engine, add a node and do a basic push to the repository as practice.
+
+Now ideally you should do this in a separate branch unless absolutely confident. The main is not to have things pushed into without review as this allows to have better version control.
+
+Main things to note, and this serves as a refresh just in case.
+1. All new changes should go to another branch before being pushed to main
+2. Always pull/fetch origin in *both* desktop and godot.
+3. After pushing into your separate branch, click on the pull request button and add a reviewer from one of the members
+4. Once they've tested the branch then and only then push to the main.
+5. Conflicts will arise if step 1. isn't done consistently.
+
+Docs:
+https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html
+
+
