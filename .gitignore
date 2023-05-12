@@ -14,4 +14,4 @@ export_presets.cfg
 # will disable addons later but for now letting it be (/addons/*)
 
 # Godot 4+ specific ignores
-.godot/
+#.godot/
