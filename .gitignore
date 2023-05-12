@@ -1,6 +1,6 @@
 .tmp
 .DS_Store
-project.godot
+#project.godot
 .idea/
 
 /.import
